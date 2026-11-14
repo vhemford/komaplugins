@@ -1,0 +1,5 @@
+name: DragonEggSurvival
+version: 1.0.0
+main: kr.koma.dragonegg.DragonEggSurvival
+api-version: "1.21"
+description: 날카 10 / 보호 7 제한, PK 경험치 드랍, 드래곤 보상 경험치

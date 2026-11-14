@@ -1,0 +1,21 @@
+# 모루에서 합칠 수 있는 최대 인챈트 레벨
+enchant:
+  sharpness-max: 10
+  protection-max: 7
+  # 모루 "너무 비쌈" 제한 (기본 바닐라는 40)
+  anvil-max-repair-cost: 1000
+  # 날카로움 책끼리 합칠 때 (양쪽 모두 이 레벨 이상) 필요한 레벨
+  sharpness-book-combine-min-level: 5
+  sharpness-book-combine-cost: 39
+
+# 플레이어 사망 시 경험치 드랍
+player-death:
+  enabled: true
+  # true: 다른 플레이어가 죽였을 때만 / false: 모든 사망
+  only-when-killed-by-player: true
+
+# 엔더드래곤 처치 경험치 (바닐라: 첫 처치 12000, 이후 500)
+dragon:
+  enabled: true
+  first-kill-xp: 12000
+  respawn-kill-xp: 12000
